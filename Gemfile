@@ -11,10 +11,10 @@ gem 'less-rails'
 group :development, :test do
   gem 'sqlite3'
 end
-gem 'pg', :group => :production 
+# gem 'pg', :group => :production 
 gem 'therubyracer'
 # gem 'rspec-rails'
-gem 'factory_girl' 
+	gem 'factory_girl' 
 # gem 'pickler'
 
 
