@@ -16,7 +16,7 @@ gem 'therubyracer'
 # gem 'rspec-rails'
 	gem 'factory_girl' 
 # gem 'pickler'
-
+gem 'better_errors'
 gem 'geocoder'
 
 # Gems used only for assets and not required
