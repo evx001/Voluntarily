@@ -1,5 +1,19 @@
 Voluntarily::Application.routes.draw do
 
+  get "location/new"
+
+  get "location/create"
+
+  get "location/update"
+
+  get "location/edit"
+
+  get "location/destroy"
+
+  get "location/index" => "location#index"
+
+  get "location/show"
+
   resources :volunteers
 
 
